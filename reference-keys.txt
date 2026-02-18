@@ -158,17 +158,3 @@ mac
 chromeos-linux
 installing-modules
 getting-started
-week-5-materials
-introduction
-topic---classical-test-theory
-learning-outcomes
-this-weeks-tutor
-reading-list
-videos-and-slides
-video-lectures
-links-to-slides
-additional-video-resources
-test-batteries
-providing-feedback
-workshop-playlist
-assignment-materials

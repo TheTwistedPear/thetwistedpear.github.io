@@ -170,3 +170,5 @@ links-to-slides
 additional-video-resources
 test-batteries
 providing-feedback
+workshop-playlist
+assignment-materials

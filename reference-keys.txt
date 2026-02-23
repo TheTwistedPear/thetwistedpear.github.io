@@ -159,3 +159,4 @@ chromeos-linux
 installing-modules
 getting-started
 link-to-workshop-materials
+week-5-workshop-recording

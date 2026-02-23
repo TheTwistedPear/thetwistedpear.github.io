@@ -23,7 +23,7 @@
 <meta name="author" content="Kevin Rowley" />
 
 
-<meta name="date" content="2026-02-18" />
+<meta name="date" content="2026-02-23" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +32,7 @@
   
 <link rel="prev" href="SCN.html"/>
 <link rel="next" href="installing-and-setting-up-jamovi.html"/>
-<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="libs/jquery-3.6.1/jquery-3.6.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -278,6 +278,7 @@
 <ul>
 <li class="chapter" data-level="" data-path="week-5-materials.html"><a href="week-5-materials.html#video-lectures"><i class="fa fa-check"></i>Video Lectures</a></li>
 <li class="chapter" data-level="" data-path="week-5-materials.html"><a href="week-5-materials.html#links-to-slides"><i class="fa fa-check"></i>Links to Slides</a></li>
+<li class="chapter" data-level="14.3.1" data-path="week-5-materials.html"><a href="week-5-materials.html#link-to-workshop-materials"><i class="fa fa-check"></i><b>14.3.1</b> Link to Workshop Materials</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="week-5-materials.html"><a href="week-5-materials.html#additional-video-resources"><i class="fa fa-check"></i>Additional Video Resources</a>
 <ul>
@@ -374,25 +375,25 @@ This document will include the participant demographics, results, and discussion
 <p>In simple terms - we are just saying what percentage of the norm group scored below a particular score.</p>
 <p>Note that this is not the same as saying that a score is a percentage below the norm group.</p>
 <p>For example - imagine there are 20 people in a room and each has bought cookies to snack on.</p>
-<p><img src="Rowley_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
+<p><img src="Rowley_files/figure-html/unnamed-chunk-15-1.png" alt="" width="672" /></p>
 <p>The plot above shows that the distribution of the number of cookies is bell-shaped.</p>
 <p>Most people have five cookies, and there is a spread around this.</p>
 <p>We can look at this data in Jamovi:</p>
-<p><img src="Floats/Misc/CookiesJamovi.png" /><!-- --></p>
+<p><img src="Floats/Misc/CookiesJamovi.png" alt="" width="224" /></p>
 <p>Now imagine that I enter the room, and in my bag I have seven cookies.</p>
 <p>I will have more than some of the people in the room, and fewer than the rest of the people.</p>
 <p>The percentile that I would be in for the attribute <em>number of cookies possessed</em>, is the percentage of people who have fewer cookies than I.</p>
 <p>Lets look at an example in Jamovi.</p>
 <p>Select <code>Exploration -&gt; Descriptives</code> and place cookies in the variables pane:</p>
-<p><img src="Floats/Misc/cookeisinjamovi.png" /><!-- --></p>
+<p><img src="Floats/Misc/cookeisinjamovi.png" alt="" width="304" /></p>
 <p>Under the <code>Statistics</code> dropdown box, de-select everything except the <em>mean</em> and <em>standard deviation</em> options to get a clear table.</p>
-<p><img src="Floats/Misc/cookiesmean.png" /><!-- --></p>
+<p><img src="Floats/Misc/cookiesmean.png" alt="" width="304" /></p>
 <p>Next, select the <code>Percentiles</code> check-box.
 This will bring up three quartile values (25th, 50th, 75th percentiles).
 Although the number of cookies that I have is included in this table, it is not very accurate since the maximum number in the room is 9.
 We can include more percentile values by adding more numbers to the text box.
 Below I have gone from 10 to 100 in steps of 10.</p>
-<p><img src="Floats/Misc/cookiespercentiles.png" /><!-- --></p>
+<p><img src="Floats/Misc/cookiespercentiles.png" alt="" width="412" /></p>
 <p>We can see that my number of cookies (7) puts me in the 80th percentile for the room, meaning that I have more cookies than 80% of the people in the room.</p>
 <p>We can also see that this is not the same as having 80% more cookies than the room.
 If we took the mean average of 5.55 cookies and work out the percentage (7/5.5)*100, then we get 127%, which means I have 27% more cookies than the room average.</p>
@@ -400,7 +401,7 @@ If we took the mean average of 5.55 cookies and work out the percentage (7/5.5)*
 <p>It might be that there is not enough variation in your norm group scores to allow for unique percentiles for every score (e.g. in the above there are three percentiles associated with a score of 5).</p>
 <p>If this is the case, then remove the redundant percentiles from the text-box or adding additional numbers in like in the example below.
 This will make reporting the percentile scores much easier!</p>
-<p><img src="Floats/Misc/cookiesuniquepercentiles.png" /><!-- --></p>
+<p><img src="Floats/Misc/cookiesuniquepercentiles.png" alt="" width="410" /></p>
 
 </div>
 </div>

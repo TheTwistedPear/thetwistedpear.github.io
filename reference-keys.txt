@@ -158,3 +158,4 @@ mac
 chromeos-linux
 installing-modules
 getting-started
+link-to-workshop-materials

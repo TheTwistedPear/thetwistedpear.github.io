@@ -21,6 +21,7 @@ tab:unnamed-chunk-10
 tab:unnamed-chunk-11
 tab:unnamed-chunk-12
 tab:unnamed-chunk-13
+fig:ninefigone
 welcome
 intro
 types-of-psychological-test
@@ -133,6 +134,7 @@ general
 short-glossary
 TM
 checklist-for-part-1
+advanced-options
 part-2---sample-feedback
 should-i-mention-boundary-conditions
 checklist-for-part-2
@@ -150,7 +152,7 @@ mischead
 BCID
 RAW
 REGREP
-ng-percentiles
+ng-percentiles-miscperc
 installing-and-setting-up-jamovi
 installing-jamovi
 windows
@@ -158,5 +160,9 @@ mac
 chromeos-linux
 installing-modules
 getting-started
+how-to-video
+Wfivemat
 link-to-workshop-materials
 week-5-workshop-recording
+JHTO
+ASSMATS
